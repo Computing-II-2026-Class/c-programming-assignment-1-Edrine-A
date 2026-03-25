@@ -1,11 +1,22 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+/* Name: SSEKYANZI EDRINE ALLAN */
+/* Student Number: 25/U/BIO/030/GV */
 
 #include <stdio.h>
+int main(){
+//declare variables
+    float distance, fuel_used, fuel_efficiency;
+//enter distance
+    printf("Enter Distance (km):");
+    scanf("%f", &distance);
+//enter fuel used
+    printf("Enter Fuel Used (litres):");
+    scanf("%f", &fuel_used);
+//calculation for fuel efficiency
+    fuel_efficiency = distance/fuel_used;
+//display fuel efficiency
+    printf("Fuel Efficiency: %.2f km/l\n", fuel_efficiency);
 
-int main(void)
-{
-    /* Write your code here */
+return 0;
 
-    return 0;
+    
 }
